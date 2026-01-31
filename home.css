@@ -11,7 +11,7 @@
 
 body, html{
     max-width: 100%;
-    background: url(img/BG.jpg);
+    background: url(img/BG.png);
     scroll-behavior: smooth;
     background-size: cover; /* заполняет всю область, сохраняя пропорции */
     background-repeat: repeat-y;
@@ -112,7 +112,7 @@ body, html{
     color: #008000;
 }
 .redLight{
-    color: orange;
+    color: #F85D0E;
 }
 
 
