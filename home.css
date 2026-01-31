@@ -133,7 +133,7 @@ body, html{
     padding: 10px;
     width: 100%;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.509);
+    background-color: rgba(255, 255, 255, 0.6);
     margin-bottom: 15px;
     display: inline-block; /* для боковых отступов */
     margin: 0 1% 15px 1%; /* 1% слева и справа */
@@ -141,14 +141,14 @@ body, html{
 }
 
 .blockina:hover{
-    background-color: rgba(255, 255, 255, 0.621);
+    background-color: rgba(255, 255, 255);
     transform: translateY(-10px);
     cursor: pointer;
 }
 
 
 .blockina h3{
-    color: #D6845C;
+    color: #D1561E;
     font-size: 40px;
 }
 
@@ -163,137 +163,6 @@ body, html{
     background: url(img/sprites.png);
     margin-top: -10px;
 }
-.footers {
-    background: linear-gradient(135deg, #007000 0%, #005500 100%);
-    width: 100%;
-    padding: 60px 20px 30px;
-    color: white;
-    font-family: 'Nunito', sans-serif;
-}
-
-.footer-container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-/* Карточки контактов */
-.footer-cards {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 25px;
-    margin-bottom: 50px;
-}
-
-.footer-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-decoration: none;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 15px;
-    padding: 25px 20px;
-    width: 200px;
-    transition: all 0.3s ease;
-    border: 2px solid rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(10px);
-}
-
-.footer-card:hover {
-    transform: translateY(-5px);
-    background: rgba(255, 255, 255, 0.15);
-    border-color: rgba(255, 255, 255, 0.4);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-
-.card-icon {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.2);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
-    font-size: 32px;
-    transition: all 0.3s ease;
-}
-
-.footer-card:hover .card-icon {
-    background: rgba(255, 255, 255, 0.3);
-    transform: scale(1.1);
-}
-
-.card-icon i {
-    font-size: 32px;
-    color: white;
-}
-
-.card-content {
-    text-align: center;
-}
-
-.card-title {
-    font-size: 1.3rem;
-    margin: 0 0 8px 0;
-    color: white;
-    font-weight: 600;
-}
-
-.card-text {
-    font-size: 1rem;
-    margin: 0;
-    color: rgba(255, 255, 255, 0.9);
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.footer-card:hover .card-text {
-    color: white;
-}
-
-/* Информация в футере */
-.footer-info {
-    text-align: center;
-    padding-top: 30px;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.footer-copyright {
-    font-size: 0.95rem;
-    color: rgba(255, 255, 255, 0.8);
-    margin: 0 0 10px 0;
-}
-
-.footer-address {
-    font-size: 0.9rem;
-    color: rgba(255, 255, 255, 0.7);
-    margin: 0;
-}
-
-/* Анимация при загрузке */
-@keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-.footer-card {
-    animation: fadeInUp 0.5s ease forwards;
-    opacity: 0;
-}
-
-.footer-card:nth-child(1) { animation-delay: 0.1s; }
-.footer-card:nth-child(2) { animation-delay: 0.2s; }
-.footer-card:nth-child(3) { animation-delay: 0.3s; }
-
-
-
 
 
 
