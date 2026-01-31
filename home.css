@@ -85,6 +85,7 @@ body, html{
 }
 
 .secta1{
+    box-shadow: 0 -10px 15px -5px rgba(0, 0, 0, 0.3);
     font-size: 70px;
     padding: 3px;
     border-top-right-radius: 10px;
@@ -92,6 +93,7 @@ body, html{
     background-color: #D33F03;
 }
 .secta2{
+    box-shadow: 0 -10px 15px -5px rgba(0, 0, 0, 0.3);
     text-decoration: underline;
     font-size: 50px;
     padding-right: 10px;
@@ -445,6 +447,7 @@ body, html{
         font-size: 25px;
     }
     .secta2{
+        
         font-size: 20px;
     }
     .flexerSlogan{
