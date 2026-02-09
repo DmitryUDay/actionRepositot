@@ -404,6 +404,14 @@ body, html{
     color: white;
 }
 
+
+
+
+
+
+
+
+
 @media (max-width: 768px) {
     .fixed-whatsapp-button {
         bottom: 100px;
@@ -447,7 +455,6 @@ body, html{
         font-size: 25px;
     }
     .secta2{
-        
         font-size: 20px;
     }
     .flexerSlogan{
